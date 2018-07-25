@@ -1,0 +1,31 @@
+<!--pages/to_edit/to_edit.wxml-->
+<view class='every'>
+  <view class='every_title'>
+    教师情况
+  </view>
+  <view> <text>学籍情况： </text><input></input> </view>
+  <view> <text>就读学校： </text><input></input></view>
+  
+  <view> <text>擅长学科： </text><label><checkbox />英语</label><label><checkbox />物理</label></view>
+  <view> <text>自我介绍： </text><textarea></textarea> </view>
+</view>
+<view class='every'>
+  <view class='every_title'>
+    教学能力
+  </view>
+  <view> <text>可教年纪：</text><input></input> </view>
+  <view> <text>可教学科： </text> <label><checkbox />英语</label><label><checkbox />物理</label></view>
+  <view><text>课时费用：</text><input type='number'></input></view>
+  <view>授课地点：<input class='right20'></input> <text class='iconfont icon-genggaishouhuodizhi font_color_main font28'></text></view>
+   <view><text>其他：</text><textarea class='left40'></textarea></view>
+</view>
+<view class='every last'>
+  <view class='every_title'>
+    教学经历
+  </view>
+  <textarea class='left95 top20'></textarea>
+</view>
+<view class='bottom'>
+  确认发布
+</view>
+
